@@ -1,0 +1,1653 @@
+﻿Log file open, 08/30/17 23:49:45
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Running
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1089898141) SRandInit(-1089898140).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 27.182112
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.30-14.49.57:047][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.30-14.49.57:047][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.30-14.49.58:113][  0]LogInit: Computer: DESKTOP-6JOGDQL
+[2017.08.30-14.49.58:113][  0]LogInit: User: JWOH
+[2017.08.30-14.49.58:113][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.30-14.49.58:113][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2017.08.30-14.49.58:125][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.30-14.49.58:125][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.30-14.49.58:126][  0]LogMemory: Process Physical Memory: 279.80 MB used, 279.80 MB peak
+[2017.08.30-14.49.58:126][  0]LogMemory: Process Virtual Memory: 284.41 MB used, 284.41 MB peak
+[2017.08.30-14.49.58:126][  0]LogMemory: Physical Memory: 5484.80 MB used,  2570.85 MB free, 8055.66 MB total
+[2017.08.30-14.49.58:126][  0]LogMemory: Virtual Memory: 679.17 MB used,  2570.85 MB free, 134217728.00 MB total
+[2017.08.30-14.50.03:180][  0]LogInit: Using OS detected language (ko-KR).
+[2017.08.30-14.50.03:180][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.08.30-14.50.04:281][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.08.30-14.50.28:470][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.30-14.50.28:556][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.08.30-14.50.28:556][  0]LogD3D11RHI:       2019/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.30-14.50.28:607][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.08.30-14.50.28:607][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.30-14.50.28:610][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.30-14.50.28:610][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.30-14.50.28:610][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.30-14.50.28:650][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.30-14.50.28:651][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.08.30-14.50.28:668][  0]LogWindows: EnumDisplayDevices:
+[2017.08.30-14.50.28:669][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.08.30-14.50.28:670][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.08.30-14.50.28:671][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.08.30-14.50.28:672][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.30-14.50.28:672][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.08.30-14.50.28:672][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.30-14.50.28:672][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.30-14.50.28:672][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.30-14.50.28:779][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.30-14.50.31:532][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.30-14.50.32:421][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Intermediate/Shaders/WorkingDirectory/15928/).
+[2017.08.30-14.50.32:422][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/J.W OH/AppData/Local/Temp/UnrealShaderWorkingDir/B01B713641B28FD9AA48BFBA4FAC2BE0/'.
+[2017.08.30-14.50.32:438][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.30-14.50.54:644][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.30-14.50.54:730][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.30-14.50.54:842][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.30-14.50.54:949][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.30-14.50.55:075][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.30-14.50.55:154][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.30-14.50.55:237][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.30-14.50.55:319][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.30-14.50.55:388][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.30-14.50.55:649][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.30-14.50.55:732][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.30-14.50.55:813][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.30-14.50.55:895][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.30-14.50.55:975][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.30-14.50.56:053][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.30-14.50.56:214][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.30-14.50.56:214][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.30-14.50.56:281][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.30-14.50.56:600][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.30-14.50.56:642][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.30-14.50.56:753][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.30-14.50.56:861][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.30-14.50.56:953][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.30-14.50.57:342][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.30-14.50.57:501][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.30-14.51.05:287][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.30-14.51.05:734][  0]LogDerivedDataCache: Loaded boot cache 0.45s 93MB C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.30-14.51.05:735][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.30-14.51.05:735][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.30-14.51.05:735][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.30-14.51.05:735][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.30-14.51.05:735][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.30-14.51.06:281][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.30-14.51.06:296][  0]LogDerivedDataCache: Using Local data cache path C:/Users/J.W OH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.30-14.51.07:124][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.30-14.51.07:664][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.30-14.51.08:436][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.30-14.51.08:483][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.30-14.52.17:330][  0]LogAssetRegistry: FAssetRegistry took 0.3118 seconds to start up
+[2017.08.30-14.52.23:641][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.30-14.52.25:273][  0]LogConfig: Warning: Failed to saved backup for config[GameplayTags]
+[2017.08.30-14.52.39:481][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.30-14.52.44:766][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.30-14.52.44:934][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.30-14.52.44:986][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.30-14.52.45:003][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.30-14.52.45:003][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.30-14.52.45:003][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.30-14.52.52:552][  0]LogConfig: Warning: Failed to saved backup for config[TemplateDefs]
+[2017.08.30-14.53.08:479][  0]LogNetVersion: Running , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2171864424)
+[2017.08.30-14.53.21:316][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Intermediate/AssetRegistryCache/b41d435a.bin
+[2017.08.30-14.53.21:362][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Intermediate/AssetRegistryCache/08131104.bin
+[2017.08.30-14.53.21:412][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Intermediate/AssetRegistryCache/8187a359.bin
+[2017.08.30-14.53.21:505][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Intermediate/AssetRegistryCache/dbb0976f.bin
+[2017.08.30-14.53.21:567][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Intermediate/AssetRegistryCache/629f845f.bin
+[2017.08.30-14.53.21:585][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Intermediate/AssetRegistryCache/aa506834.bin
+[2017.08.30-14.53.21:595][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.697529 seconds
+[2017.08.30-14.53.21:682][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.30-14.53.21:682][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.08.30-14.53.21:682][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.30-14.53.21:774][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.30-14.54.47:162][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.30-14.54.47:339][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.30-14.54.55:679][  0]LogConfig: Warning: Failed to saved backup for config[InternationalizationExport]
+[2017.08.30-14.54.59:135][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.30-14.55.04:071][  0]LogConfig: Warning: Failed to saved backup for config[SourceControlSettings]
+[2017.08.30-14.55.04:217][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.08.30-14.55.04:231][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.08.30-14.55.05:084][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.08.30-14.55.05:363][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.08.30-14.55.13:109][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.30-14.55.14:583][  0]LogOcInput: OculusInput pre-init called
+[2017.08.30-14.55.19:890][  0]LogEngine: Initializing Engine...
+[2017.08.30-14.55.20:339][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.30-14.55.23:730][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.30-14.55.23:761][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.004 s
+[2017.08.30-14.55.28:348][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.30-14.55.30:801][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.30-14.55.30:941][  0]LogInit: FAudioDevice initialized.
+[2017.08.30-14.55.31:139][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/J.W OH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.30-14.55.31:224][  0]LogInit: Texture streaming: Enabled
+[2017.08.30-14.55.33:629][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.30-14.55.37:893][  0]LogInit: Transaction tracking system initialized
+[2017.08.30-14.55.44:176][  0]BlueprintLog: New page: 에디터 로드
+[2017.08.30-14.55.56:418][  0]LogConfig: Warning: Failed to saved backup for config[LocalizationServiceSettings]
+[2017.08.30-14.55.56:432][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2017.08.30-14.56.06:822][  0]LogConsoleResponse: Display: 
+[2017.08.30-14.56.18:328][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.30-14.56.18:444][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.30-14.56.18:665][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.30-14.56.20:834][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/DaeguCasualGame/Running/Content/' took 2.14s
+[2017.08.30-14.56.37:098][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.08.30-14.56.37:236][  0]Cmd: MAP LOAD FILE="../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.30-14.56.37:399][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.30-14.56.38:643][  0]MapCheck: New page: 맵 체크
+[2017.08.30-14.56.38:643][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.30-14.56.53:183][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.30-14.56.56:170][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.30-14.56.57:594][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.30-14.56.57:983][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 389.028ms.
+[2017.08.30-14.56.57:984][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 20.803
+[2017.08.30-14.57.08:263][  0]LogCollectionManager: Loaded 0 collections in 0.012764 seconds
+[2017.08.30-14.57.09:577][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/DaeguCasualGame/Running/Saved/Collections/' took 0.01s
+[2017.08.30-14.57.09:577][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/DaeguCasualGame/Running/Content/Developers/JWOH/Collections/' took 0.01s
+[2017.08.30-14.57.09:578][  0]LogFileCache: Scanning file cache for directory 'D:/NewGarden/GardenProject/DaeguCasualGame/Running/Content/Collections/' took 0.01s
+[2017.08.30-14.57.09:578][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.30-14.57.09:778][  0]LogContentBrowser: Native class hierarchy populated in 0.1737 seconds. Added 2386 classes and 500 folders.
+[2017.08.30-14.57.10:902][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.30-14.57.16:980][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.08.30-14.57.17:960][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.30-14.57.22:287][  0]LogSlate: Took 0.379962 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.30-14.57.22:704][  0]LogSlate: Took 0.414588 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.08.30-14.57.22:758][  0]LogSlate: Took 0.038709 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.30-14.57.22:878][  0]LogSlate: Took 0.049209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.30-14.57.25:663][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.08.30-14.57.30:817][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.30-14.57.30:817][  0]LogLoad: (Engine Initialization) Total time: 546.33 seconds
+[2017.08.30-14.57.30:817][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.30-14.57.30:871][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.30-14.57.30:871][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.30-14.57.33:086][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.30-14.57.35:865][  1]LogSlate: Took 0.366650 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.30-14.57.36:649][  2]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.30-14.57.37:655][  5]LogAssetRegistry: Asset discovery search completed in 320.4840 seconds
+[2017.08.30-14.57.37:702][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.30-14.57.37:702][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
+[2017.08.30-15.02.40:351][286]LogSlate: Took 0.054946 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.30-15.02.40:636][286]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\DaeguCasualGame\Resource\PlayerRun.FBX)
+[2017.08.30-15.02.40:917][286]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.30-15.02.40:917][286]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.08.30-15.02.40:917][286]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.08.30-15.02.40:917][286]LogFbx: ItemName: Model, ItemCount : 44
+[2017.08.30-15.02.40:917][286]LogFbx: ItemName: Geometry, ItemCount : 11
+[2017.08.30-15.02.40:917][286]LogFbx: ItemName: Material, ItemCount : 2
+[2017.08.30-15.02.40:917][286]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.08.30-15.02.40:917][286]LogFbx: ItemName: NodeAttribute, ItemCount : 32
+[2017.08.30-15.02.40:917][286]LogFbx: ItemName: AnimationCurve, ItemCount : 297
+[2017.08.30-15.02.40:917][286]LogFbx: ItemName: AnimationCurveNode, ItemCount : 99
+[2017.08.30-15.02.40:917][286]LogFbx: ItemName: Deformer, ItemCount : 21
+[2017.08.30-15.02.40:917][286]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.08.30-15.02.40:917][286]LogFbx: ItemName: Video, ItemCount : 1
+[2017.08.30-15.02.40:925][286]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\DaeguCasualGame\Resource\PlayerRun.FBX
+[2017.08.30-15.02.40:990][286]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.30-15.02.49:276][286]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\DaeguCasualGame\Resource\PlayerRun.FBX
+[2017.08.30-15.02.49:305][286]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.30-15.02.49:305][286]LogFbx: =================================================
+[2017.08.30-15.02.49:305][286]LogFbx: Dumping Node START [Cylinder002] 
+[2017.08.30-15.02.49:305][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:305][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:305][286]LogFbx: =================================================
+[2017.08.30-15.02.49:305][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:305][286]LogFbx: 		[Node Attribute Child 1] Cylinder002 (Type Mesh).
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node END [Cylinder002]
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node START [Object002] 
+[2017.08.30-15.02.49:306][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node Attribute Child 1] Object002 (Type Mesh).
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node END [Object002]
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node START [Object003] 
+[2017.08.30-15.02.49:306][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node Attribute Child 1] Object003 (Type Mesh).
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node END [Object003]
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node START [Object004] 
+[2017.08.30-15.02.49:306][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node Attribute Child 1] Object004 (Type Mesh).
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node END [Object004]
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node START [Object005] 
+[2017.08.30-15.02.49:306][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node Attribute Child 1] Object005 (Type Mesh).
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node END [Object005]
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node START [Object007] 
+[2017.08.30-15.02.49:306][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node Attribute Child 1] Object007 (Type Mesh).
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node END [Object007]
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node START [Object008] 
+[2017.08.30-15.02.49:306][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node Attribute Child 1] Object008 (Type Mesh).
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node END [Object008]
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node START [Object009] 
+[2017.08.30-15.02.49:306][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node Attribute Child 1] Object009 (Type Mesh).
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node END [Object009]
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.49:306][286]LogFbx: 	Total Deformer Count 827488192.
+[2017.08.30-15.02.49:306][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.02.49:306][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:306][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:306][286]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.02.49:306][286]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.02.49:306][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.02.49:307][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:307][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node START [Cylinder002] 
+[2017.08.30-15.02.49:307][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node Attribute Child 1] Cylinder002 (Type Mesh).
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node END [Cylinder002]
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node START [Object002] 
+[2017.08.30-15.02.49:307][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node Attribute Child 1] Object002 (Type Mesh).
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node END [Object002]
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node START [Object003] 
+[2017.08.30-15.02.49:307][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node Attribute Child 1] Object003 (Type Mesh).
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node END [Object003]
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node START [Object004] 
+[2017.08.30-15.02.49:307][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node Attribute Child 1] Object004 (Type Mesh).
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node END [Object004]
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node START [Object005] 
+[2017.08.30-15.02.49:307][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node Attribute Child 1] Object005 (Type Mesh).
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node END [Object005]
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node START [Object007] 
+[2017.08.30-15.02.49:307][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node Attribute Child 1] Object007 (Type Mesh).
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node END [Object007]
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node START [Object008] 
+[2017.08.30-15.02.49:307][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:307][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:307][286]LogFbx: 		[Node Attribute Child 1] Object008 (Type Mesh).
+[2017.08.30-15.02.49:307][286]LogFbx: Dumping Node END [Object008]
+[2017.08.30-15.02.49:307][286]LogFbx: =================================================
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node START [Object009] 
+[2017.08.30-15.02.49:308][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:308][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.49:308][286]LogFbx: =================================================
+[2017.08.30-15.02.49:308][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:308][286]LogFbx: 		[Node Attribute Child 1] Object009 (Type Mesh).
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node END [Object009]
+[2017.08.30-15.02.49:308][286]LogFbx: =================================================
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.49:308][286]LogFbx: 	Total Deformer Count 827488192.
+[2017.08.30-15.02.49:308][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:308][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.49:308][286]LogFbx: =================================================
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.02.49:308][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:308][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:308][286]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.02.49:308][286]LogFbx: =================================================
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.02.49:308][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:308][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:308][286]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.02.49:308][286]LogFbx: =================================================
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.49:308][286]LogFbx: 	Total Deformer Count 827488192.
+[2017.08.30-15.02.49:308][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:308][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.49:308][286]LogFbx: =================================================
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.02.49:308][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:308][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:308][286]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.02.49:308][286]LogFbx: =================================================
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.02.49:308][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:308][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:308][286]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.02.49:308][286]LogFbx: =================================================
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.49:308][286]LogFbx: 	Total Deformer Count 827488192.
+[2017.08.30-15.02.49:308][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:308][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.49:308][286]LogFbx: =================================================
+[2017.08.30-15.02.49:308][286]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.02.49:308][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:309][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:309][286]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.02.49:309][286]LogFbx: =================================================
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.02.49:309][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:309][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:309][286]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.02.49:309][286]LogFbx: =================================================
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.49:309][286]LogFbx: 	Total Deformer Count 827488192.
+[2017.08.30-15.02.49:309][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:309][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.49:309][286]LogFbx: =================================================
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.49:309][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:309][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:309][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.49:309][286]LogFbx: =================================================
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.49:309][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:309][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:309][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.49:309][286]LogFbx: =================================================
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.49:309][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:309][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:309][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.49:309][286]LogFbx: =================================================
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.49:309][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:309][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:309][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.49:309][286]LogFbx: =================================================
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.49:309][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:309][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:309][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.49:309][286]LogFbx: =================================================
+[2017.08.30-15.02.49:309][286]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.02.49:310][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:310][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:310][286]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.02.49:310][286]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.02.49:310][286]LogFbx: =================================================
+[2017.08.30-15.02.49:310][286]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.02.49:310][286]LogFbx: 	Total Deformer Count 827483200.
+[2017.08.30-15.02.49:310][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.49:310][286]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.02.49:310][286]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.02.49:310][286]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Cylinder002 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.02.49:310][286]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object002 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.02.49:311][286]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object003 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.02.49:311][286]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object004 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.02.49:311][286]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object005 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.02.49:311][286]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object007 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.02.49:311][286]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object008 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.02.49:311][286]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object009 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.02.49:311][286]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Cylinder007 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.02.49:311][286]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object006 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.02.49:311][286]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object001 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.02.49:311][286]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.08.30-15.02.49:332][286]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cylinder002
+[2017.08.30-15.02.49:332][286]LogFbx: Warning: Recreating bind pose succeeded.
+[2017.08.30-15.02.49:382][286]LogLinker: '/Game/ThirdPersonBP/Player/01_-_Default' 파일을 찾을 수 없습니다.
+[2017.08.30-15.02.49:392][286]LogLinker: '/Game/ThirdPersonBP/Player/01_-_Default' 파일을 찾을 수 없습니다.
+[2017.08.30-15.02.49:420][286]LogMaterial: Warning: Material /Game/ThirdPersonBP/Player/01_-_Default.01_-_Default needed to have new flag set bUsedWithSkeletalMesh !
+[2017.08.30-15.02.49:431][286]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.08.30-15.02.49:760][286]LogLinker: '/Game/ThirdPersonBP/Player/PlayerUV' 파일을 찾을 수 없습니다.
+[2017.08.30-15.02.49:760][286]LogLinker: '/Game/ThirdPersonBP/Player/PlayerUV' 파일을 찾을 수 없습니다.
+[2017.08.30-15.02.49:761][286]LogFbxMaterialImport: Warning: Unable to find Texture file D:\_대구캐주얼게임공모전\PlayerUV.psd
+[2017.08.30-15.02.49:784][286]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.08.30-15.02.49:859][286]LogLinker: '/Game/ThirdPersonBP/Player/02_-_Default' 파일을 찾을 수 없습니다.
+[2017.08.30-15.02.49:859][286]LogLinker: '/Game/ThirdPersonBP/Player/02_-_Default' 파일을 찾을 수 없습니다.
+[2017.08.30-15.02.49:860][286]LogMaterial: Warning: Material /Game/ThirdPersonBP/Player/02_-_Default.02_-_Default needed to have new flag set bUsedWithSkeletalMesh !
+[2017.08.30-15.02.49:863][286]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2017.08.30-15.02.49:938][286]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2017.08.30-15.02.50:017][286]LogFbx: Triangulating skeletal mesh Cylinder002
+[2017.08.30-15.02.50:240][286]LogFbx: Triangulating skeletal mesh Object005
+[2017.08.30-15.02.50:244][286]LogFbx: Triangulating skeletal mesh Object009
+[2017.08.30-15.02.50:250][286]LogFbx: Triangulating skeletal mesh Cylinder007
+[2017.08.30-15.02.50:267][286]LogFbx: Triangulating skeletal mesh Object006
+[2017.08.30-15.02.50:271][286]LogFbx: Triangulating skeletal mesh Object001
+[2017.08.30-15.02.50:564][286]LogFbx: Warning: Bones digested - 35  Depth of hierarchy - 10
+[2017.08.30-15.02.51:662][286]LogSkeletalMesh: Section 0: 1018 vertices, 16 active bones
+[2017.08.30-15.02.51:662][286]LogSkeletalMesh: Section 1: 15 vertices, 2 active bones
+[2017.08.30-15.02.51:667][286]LogSkeletalMesh: Section 0: Material=0, 952 triangles
+[2017.08.30-15.02.51:667][286]LogSkeletalMesh: Section 1: Material=1, 18 triangles
+[2017.08.30-15.02.51:789][286]LogSlate: Took 0.019734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.30-15.02.51:794][286]LogLinker: '/Game/ThirdPersonBP/Player/PlayerRun_Skeleton' 파일을 찾을 수 없습니다.
+[2017.08.30-15.02.51:794][286]LogLinker: '/Game/ThirdPersonBP/Player/PlayerRun_Skeleton' 파일을 찾을 수 없습니다.
+[2017.08.30-15.02.51:840][286]LogLinker: '/Game/ThirdPersonBP/Player/PlayerRun_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.08.30-15.02.51:840][286]LogLinker: '/Game/ThirdPersonBP/Player/PlayerRun_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.08.30-15.02.52:780][286]LogFbx: =================================================
+[2017.08.30-15.02.52:780][286]LogFbx: Dumping Node START [Cylinder002] 
+[2017.08.30-15.02.52:780][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:780][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:780][286]LogFbx: =================================================
+[2017.08.30-15.02.52:780][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:780][286]LogFbx: 		[Node Attribute Child 1] Cylinder002 (Type Mesh).
+[2017.08.30-15.02.52:780][286]LogFbx: Dumping Node END [Cylinder002]
+[2017.08.30-15.02.52:780][286]LogFbx: =================================================
+[2017.08.30-15.02.52:780][286]LogFbx: Dumping Node START [Object002] 
+[2017.08.30-15.02.52:780][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:780][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:780][286]LogFbx: =================================================
+[2017.08.30-15.02.52:780][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:780][286]LogFbx: 		[Node Attribute Child 1] Object002 (Type Mesh).
+[2017.08.30-15.02.52:780][286]LogFbx: Dumping Node END [Object002]
+[2017.08.30-15.02.52:780][286]LogFbx: =================================================
+[2017.08.30-15.02.52:780][286]LogFbx: Dumping Node START [Object003] 
+[2017.08.30-15.02.52:780][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:780][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:780][286]LogFbx: =================================================
+[2017.08.30-15.02.52:780][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:780][286]LogFbx: 		[Node Attribute Child 1] Object003 (Type Mesh).
+[2017.08.30-15.02.52:780][286]LogFbx: Dumping Node END [Object003]
+[2017.08.30-15.02.52:780][286]LogFbx: =================================================
+[2017.08.30-15.02.52:780][286]LogFbx: Dumping Node START [Object004] 
+[2017.08.30-15.02.52:780][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:780][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:780][286]LogFbx: =================================================
+[2017.08.30-15.02.52:780][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:780][286]LogFbx: 		[Node Attribute Child 1] Object004 (Type Mesh).
+[2017.08.30-15.02.52:780][286]LogFbx: Dumping Node END [Object004]
+[2017.08.30-15.02.52:781][286]LogFbx: =================================================
+[2017.08.30-15.02.52:781][286]LogFbx: Dumping Node START [Object005] 
+[2017.08.30-15.02.52:781][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:781][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:781][286]LogFbx: =================================================
+[2017.08.30-15.02.52:781][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:781][286]LogFbx: 		[Node Attribute Child 1] Object005 (Type Mesh).
+[2017.08.30-15.02.52:781][286]LogFbx: Dumping Node END [Object005]
+[2017.08.30-15.02.52:781][286]LogFbx: =================================================
+[2017.08.30-15.02.52:781][286]LogFbx: Dumping Node START [Object007] 
+[2017.08.30-15.02.52:781][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:781][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:781][286]LogFbx: =================================================
+[2017.08.30-15.02.52:781][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:781][286]LogFbx: 		[Node Attribute Child 1] Object007 (Type Mesh).
+[2017.08.30-15.02.52:781][286]LogFbx: Dumping Node END [Object007]
+[2017.08.30-15.02.52:781][286]LogFbx: =================================================
+[2017.08.30-15.02.52:781][286]LogFbx: Dumping Node START [Object008] 
+[2017.08.30-15.02.52:781][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:781][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:781][286]LogFbx: =================================================
+[2017.08.30-15.02.52:781][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:781][286]LogFbx: 		[Node Attribute Child 1] Object008 (Type Mesh).
+[2017.08.30-15.02.52:781][286]LogFbx: Dumping Node END [Object008]
+[2017.08.30-15.02.52:781][286]LogFbx: =================================================
+[2017.08.30-15.02.52:781][286]LogFbx: Dumping Node START [Object009] 
+[2017.08.30-15.02.52:781][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:781][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:781][286]LogFbx: =================================================
+[2017.08.30-15.02.52:781][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:781][286]LogFbx: 		[Node Attribute Child 1] Object009 (Type Mesh).
+[2017.08.30-15.02.52:781][286]LogFbx: Dumping Node END [Object009]
+[2017.08.30-15.02.52:782][286]LogFbx: =================================================
+[2017.08.30-15.02.52:782][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.52:782][286]LogFbx: 	Total Deformer Count 393046784.
+[2017.08.30-15.02.52:782][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:782][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.52:782][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.52:782][286]LogFbx: =================================================
+[2017.08.30-15.02.52:782][286]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.02.52:782][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:782][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:782][286]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.02.52:782][286]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.02.52:782][286]LogFbx: =================================================
+[2017.08.30-15.02.52:782][286]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.02.52:782][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:782][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:782][286]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.02.52:782][286]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.02.52:782][286]LogFbx: =================================================
+[2017.08.30-15.02.52:782][286]LogFbx: Dumping Node START [Cylinder002] 
+[2017.08.30-15.02.52:782][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:782][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:782][286]LogFbx: =================================================
+[2017.08.30-15.02.52:782][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:782][286]LogFbx: 		[Node Attribute Child 1] Cylinder002 (Type Mesh).
+[2017.08.30-15.02.52:782][286]LogFbx: Dumping Node END [Cylinder002]
+[2017.08.30-15.02.52:783][286]LogFbx: =================================================
+[2017.08.30-15.02.52:783][286]LogFbx: Dumping Node START [Object002] 
+[2017.08.30-15.02.52:783][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:783][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:783][286]LogFbx: =================================================
+[2017.08.30-15.02.52:783][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:783][286]LogFbx: 		[Node Attribute Child 1] Object002 (Type Mesh).
+[2017.08.30-15.02.52:783][286]LogFbx: Dumping Node END [Object002]
+[2017.08.30-15.02.52:783][286]LogFbx: =================================================
+[2017.08.30-15.02.52:783][286]LogFbx: Dumping Node START [Object003] 
+[2017.08.30-15.02.52:783][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:783][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:783][286]LogFbx: =================================================
+[2017.08.30-15.02.52:783][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:783][286]LogFbx: 		[Node Attribute Child 1] Object003 (Type Mesh).
+[2017.08.30-15.02.52:783][286]LogFbx: Dumping Node END [Object003]
+[2017.08.30-15.02.52:783][286]LogFbx: =================================================
+[2017.08.30-15.02.52:783][286]LogFbx: Dumping Node START [Object004] 
+[2017.08.30-15.02.52:783][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:783][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:783][286]LogFbx: =================================================
+[2017.08.30-15.02.52:783][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:783][286]LogFbx: 		[Node Attribute Child 1] Object004 (Type Mesh).
+[2017.08.30-15.02.52:783][286]LogFbx: Dumping Node END [Object004]
+[2017.08.30-15.02.52:783][286]LogFbx: =================================================
+[2017.08.30-15.02.52:783][286]LogFbx: Dumping Node START [Object005] 
+[2017.08.30-15.02.52:783][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:783][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:783][286]LogFbx: =================================================
+[2017.08.30-15.02.52:784][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:784][286]LogFbx: 		[Node Attribute Child 1] Object005 (Type Mesh).
+[2017.08.30-15.02.52:784][286]LogFbx: Dumping Node END [Object005]
+[2017.08.30-15.02.52:784][286]LogFbx: =================================================
+[2017.08.30-15.02.52:784][286]LogFbx: Dumping Node START [Object007] 
+[2017.08.30-15.02.52:784][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:784][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:784][286]LogFbx: =================================================
+[2017.08.30-15.02.52:784][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:784][286]LogFbx: 		[Node Attribute Child 1] Object007 (Type Mesh).
+[2017.08.30-15.02.52:784][286]LogFbx: Dumping Node END [Object007]
+[2017.08.30-15.02.52:784][286]LogFbx: =================================================
+[2017.08.30-15.02.52:784][286]LogFbx: Dumping Node START [Object008] 
+[2017.08.30-15.02.52:784][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:784][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:784][286]LogFbx: =================================================
+[2017.08.30-15.02.52:784][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:784][286]LogFbx: 		[Node Attribute Child 1] Object008 (Type Mesh).
+[2017.08.30-15.02.52:784][286]LogFbx: Dumping Node END [Object008]
+[2017.08.30-15.02.52:784][286]LogFbx: =================================================
+[2017.08.30-15.02.52:784][286]LogFbx: Dumping Node START [Object009] 
+[2017.08.30-15.02.52:784][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:784][286]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.02.52:784][286]LogFbx: =================================================
+[2017.08.30-15.02.52:784][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:784][286]LogFbx: 		[Node Attribute Child 1] Object009 (Type Mesh).
+[2017.08.30-15.02.52:784][286]LogFbx: Dumping Node END [Object009]
+[2017.08.30-15.02.52:785][286]LogFbx: =================================================
+[2017.08.30-15.02.52:785][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.52:785][286]LogFbx: 	Total Deformer Count 393046784.
+[2017.08.30-15.02.52:785][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:785][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.52:785][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.52:785][286]LogFbx: =================================================
+[2017.08.30-15.02.52:785][286]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.02.52:785][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:785][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:785][286]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.02.52:785][286]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.02.52:785][286]LogFbx: =================================================
+[2017.08.30-15.02.52:785][286]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.02.52:785][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:785][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:785][286]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.02.52:785][286]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.02.52:785][286]LogFbx: =================================================
+[2017.08.30-15.02.52:785][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.52:786][286]LogFbx: 	Total Deformer Count 393046784.
+[2017.08.30-15.02.52:786][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:786][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.52:786][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.52:786][286]LogFbx: =================================================
+[2017.08.30-15.02.52:786][286]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.02.52:786][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:786][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:786][286]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.02.52:786][286]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.02.52:786][286]LogFbx: =================================================
+[2017.08.30-15.02.52:786][286]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.02.52:786][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:786][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:786][286]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.02.52:786][286]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.02.52:786][286]LogFbx: =================================================
+[2017.08.30-15.02.52:786][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.52:786][286]LogFbx: 	Total Deformer Count 393046784.
+[2017.08.30-15.02.52:786][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:786][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.52:786][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.52:786][286]LogFbx: =================================================
+[2017.08.30-15.02.52:786][286]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.02.52:786][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:786][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:786][286]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.02.52:787][286]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.02.52:787][286]LogFbx: =================================================
+[2017.08.30-15.02.52:787][286]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.02.52:787][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:787][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:787][286]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.02.52:787][286]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.02.52:787][286]LogFbx: =================================================
+[2017.08.30-15.02.52:787][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.52:787][286]LogFbx: 	Total Deformer Count 393046784.
+[2017.08.30-15.02.52:787][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:787][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.52:787][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.52:787][286]LogFbx: =================================================
+[2017.08.30-15.02.52:787][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.52:788][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:788][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:788][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.52:788][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.52:788][286]LogFbx: =================================================
+[2017.08.30-15.02.52:788][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.52:788][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:788][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:788][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.52:788][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.52:788][286]LogFbx: =================================================
+[2017.08.30-15.02.52:788][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.52:788][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:788][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:788][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.52:788][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.52:788][286]LogFbx: =================================================
+[2017.08.30-15.02.52:788][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.52:788][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:788][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:788][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.52:788][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.52:788][286]LogFbx: =================================================
+[2017.08.30-15.02.52:788][286]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.02.52:788][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:788][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:788][286]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.02.52:788][286]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.02.52:788][286]LogFbx: =================================================
+[2017.08.30-15.02.52:788][286]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.02.52:788][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:788][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:788][286]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.02.52:788][286]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.02.52:788][286]LogFbx: =================================================
+[2017.08.30-15.02.52:788][286]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.02.52:788][286]LogFbx: 	Total Deformer Count 393047872.
+[2017.08.30-15.02.52:788][286]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.02.52:788][286]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.02.52:789][286]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.02.52:841][286]LogFbx: SortedLinks :(0) Bip001
+[2017.08.30-15.02.52:841][286]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2017.08.30-15.02.52:841][286]LogFbx: SortedLinks :(2) Bip001 Spine
+[2017.08.30-15.02.52:841][286]LogFbx: SortedLinks :(3) Bip001 L Thigh
+[2017.08.30-15.02.52:841][286]LogFbx: SortedLinks :(4) Bip001 L Calf
+[2017.08.30-15.02.52:841][286]LogFbx: SortedLinks :(5) Bip001 L Foot
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(6) Bip001 L Toe0
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(7) Bip001 L Toe01
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(8) Bip001 L Toe02
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(9) Bip001 L Toe0Nub
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(10) Bip001 R Thigh
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(11) Bip001 R Calf
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(12) Bip001 R Foot
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(13) Bip001 R Toe0
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(14) Bip001 R Toe01
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(15) Bip001 R Toe02
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(16) Bip001 R Toe0Nub
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(17) Bip001 Neck
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(18) Bip001 L Clavicle
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(19) Bip001 L UpperArm
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(20) Bip001 L Forearm
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(21) Bip001 L Hand
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(22) Bip001 L Finger0
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(23) Bip001 L Finger0Nub
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(24) Cylinder007
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(25) Bip001 R Clavicle
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(26) Bip001 R UpperArm
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(27) Bip001 R Forearm
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(28) Bip001 R Hand
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(29) Bip001 R Finger0
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(30) Bip001 R Finger0Nub
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(31) Bip001 Head
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(32) Bip001 HeadNub
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(33) Object006
+[2017.08.30-15.02.52:842][286]LogFbx: SortedLinks :(34) Object001
+[2017.08.30-15.02.52:853][286]LogFbx: Parsing AnimStack Take 001
+[2017.08.30-15.02.52:901][286]LogLinker: '/Game/ThirdPersonBP/Player/PlayerRun_Anim' 파일을 찾을 수 없습니다.
+[2017.08.30-15.02.52:901][286]LogLinker: '/Game/ThirdPersonBP/Player/PlayerRun_Anim' 파일을 찾을 수 없습니다.
+[2017.08.30-15.02.53:125][286]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Player/PlayerRun_Anim.PlayerRun_Anim
+[2017.08.30-15.02.53:189][286]FBXImport: Warning: 바인드 포즈에서 빠진 본은 다음과 같습니다:
+Bip001 L Foot  
+Bip001 L Toe0  
+Bip001 L Toe01  
+Bip001 L Toe02  
+Bip001 L Toe0Nub  
+Bip001 R Foot  
+Bip001 R Toe0  
+Bip001 R Toe01  
+Bip001 R Toe02  
+Bip001 R Toe0Nub  
+Bip001 L Finger0  
+Bip001 L Finger0Nub  
+Cylinder007  
+Bip001 R Finger0  
+Bip001 R Finger0Nub  
+Bip001 HeadNub  
+Object006  
+Object001  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2017.08.30-15.03.03:285][492]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0017 seconds. Added 1 classes and 0 folders.
+[2017.08.30-15.03.03:298][492]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.08.30-15.03.03:922][492]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.08.30-15.03.04:033][492]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.08.30-15.03.04:133][492]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.30-15.03.04:250][492]LogSlate: Took 0.059482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.30-15.03.05:155][493]LogSlate: Took 0.054119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.30-15.03.13:334][736]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2017.08.30-15.03.13:510][736]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2017.08.30-15.03.13:591][736]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2017.08.30-15.03.13:702][736]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.30-15.03.14:788][764]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.30-15.03.14:788][764]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.30-15.03.14:788][764]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.30-15.03.22:793][921]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.08.30-15.03.22:983][921]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.08.30-15.03.23:099][921]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2017.08.30-15.03.23:242][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 01_-_Default, compiling. 
+[2017.08.30-15.03.28:531][921]TextureStreamingBuild: Display: Compiling optional shaders took 5.318 seconds.
+[2017.08.30-15.03.37:435][921]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2017.08.30-15.03.37:559][921]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2017.08.30-15.03.37:634][921]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2017.08.30-15.03.37:724][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 02_-_Default, compiling. 
+[2017.08.30-15.03.40:769][921]TextureStreamingBuild: Display: Compiling optional shaders took 3.054 seconds.
+[2017.08.30-15.03.58:119][ 71]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.08.30-15.03.58:730][ 71]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.30-15.03.59:177][ 71]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.08.30-15.04.00:612][ 71]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2017.08.30-15.04.00:630][ 71]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.30-15.04.19:177][679]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 113 classes and 0 folders.
+[2017.08.30-15.04.41:962][638]LogRenderer: Reallocating scene render targets to support 1208x696 Format 10 NumSamples 1 (Frame:1).
+[2017.08.30-15.04.54:982][141]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton PlayerRun_Skeleton, removing AnimBP from actor.
+[2017.08.30-15.04.54:983][141]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton PlayerRun_Skeleton, removing AnimBP from actor.
+[2017.08.30-15.04.54:983][141]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton PlayerRun_Skeleton, removing AnimBP from actor.
+[2017.08.30-15.05.01:561][427]BlueprintLog: New page: PlayerCharacter 컴파일
+[2017.08.30-15.05.03:954][517]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.08.30-15.05.04:659][517]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.30-15.05.04:670][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.30-15.05.04:821][517]PIE: New page: PIE 세션: ThirdPersonExampleMap (2017. 8. 31. 오전 9:05:04)
+[2017.08.30-15.05.04:856][517]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.30-15.05.04:904][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047523s)
+[2017.08.30-15.05.04:905][517]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.30-15.05.04:906][517]LogPlayLevel: PIE: World Init took: (0.001378s)
+[2017.08.30-15.05.04:906][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.049508s)
+[2017.08.30-15.05.04:976][517]LogInit: XAudio2 using '스피커(Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.30-15.05.04:990][517]LogInit: FAudioDevice initialized.
+[2017.08.30-15.05.05:994][517]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.30-15.05.06:008][517]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.31-00.05.06
+[2017.08.30-15.05.06:017][517]LogWorld: Bringing up level for play took: 0.009814
+[2017.08.30-15.05.06:301][517]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.08.30-15.05.06:486][517]PIE: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 에 대한 에디터에서 플레이 시작 시간: 1.971
+[2017.08.30-15.05.06:486][517]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.30-15.05.10:283][716]Cmd: LevelEditor.ToggleImmersive
+[2017.08.30-15.05.10:627][717]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:201).
+[2017.08.30-15.05.46:208][233]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.30-15.05.46:291][233]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.30-15.06.33:034][548]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\DaeguCasualGame\Resource\PlayerJump.FBX)
+[2017.08.30-15.06.33:043][548]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.30-15.06.33:043][548]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.08.30-15.06.33:043][548]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.08.30-15.06.33:043][548]LogFbx: ItemName: Model, ItemCount : 44
+[2017.08.30-15.06.33:043][548]LogFbx: ItemName: Geometry, ItemCount : 11
+[2017.08.30-15.06.33:044][548]LogFbx: ItemName: Material, ItemCount : 2
+[2017.08.30-15.06.33:044][548]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.08.30-15.06.33:044][548]LogFbx: ItemName: NodeAttribute, ItemCount : 32
+[2017.08.30-15.06.33:044][548]LogFbx: ItemName: AnimationCurve, ItemCount : 303
+[2017.08.30-15.06.33:044][548]LogFbx: ItemName: AnimationCurveNode, ItemCount : 101
+[2017.08.30-15.06.33:044][548]LogFbx: ItemName: Deformer, ItemCount : 21
+[2017.08.30-15.06.33:044][548]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.08.30-15.06.33:044][548]LogFbx: ItemName: Video, ItemCount : 1
+[2017.08.30-15.06.33:049][548]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\DaeguCasualGame\Resource\PlayerJump.FBX
+[2017.08.30-15.06.33:081][548]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.30-15.06.41:928][747]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\NewGarden\GardenProject\DaeguCasualGame\Resource\PlayerJump.FBX)
+[2017.08.30-15.06.41:936][747]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.30-15.06.41:936][747]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.08.30-15.06.41:936][747]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.08.30-15.06.41:936][747]LogFbx: ItemName: Model, ItemCount : 44
+[2017.08.30-15.06.41:936][747]LogFbx: ItemName: Geometry, ItemCount : 11
+[2017.08.30-15.06.41:936][747]LogFbx: ItemName: Material, ItemCount : 2
+[2017.08.30-15.06.41:936][747]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.08.30-15.06.41:936][747]LogFbx: ItemName: NodeAttribute, ItemCount : 32
+[2017.08.30-15.06.41:936][747]LogFbx: ItemName: AnimationCurve, ItemCount : 303
+[2017.08.30-15.06.41:936][747]LogFbx: ItemName: AnimationCurveNode, ItemCount : 101
+[2017.08.30-15.06.41:936][747]LogFbx: ItemName: Deformer, ItemCount : 21
+[2017.08.30-15.06.41:936][747]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.08.30-15.06.41:936][747]LogFbx: ItemName: Video, ItemCount : 1
+[2017.08.30-15.06.41:941][747]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\DaeguCasualGame\Resource\PlayerJump.FBX
+[2017.08.30-15.06.41:971][747]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.30-15.07.01:635][747]LogFbx: Loading FBX Scene from D:\NewGarden\GardenProject\DaeguCasualGame\Resource\PlayerJump.FBX
+[2017.08.30-15.07.01:665][747]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.30-15.07.01:666][747]LogFbx: =================================================
+[2017.08.30-15.07.01:666][747]LogFbx: Dumping Node START [Cylinder002] 
+[2017.08.30-15.07.01:666][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:666][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:666][747]LogFbx: =================================================
+[2017.08.30-15.07.01:666][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:666][747]LogFbx: 		[Node Attribute Child 1] Cylinder002 (Type Mesh).
+[2017.08.30-15.07.01:666][747]LogFbx: Dumping Node END [Cylinder002]
+[2017.08.30-15.07.01:666][747]LogFbx: =================================================
+[2017.08.30-15.07.01:666][747]LogFbx: Dumping Node START [Object002] 
+[2017.08.30-15.07.01:666][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:666][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:667][747]LogFbx: =================================================
+[2017.08.30-15.07.01:667][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:667][747]LogFbx: 		[Node Attribute Child 1] Object002 (Type Mesh).
+[2017.08.30-15.07.01:667][747]LogFbx: Dumping Node END [Object002]
+[2017.08.30-15.07.01:667][747]LogFbx: =================================================
+[2017.08.30-15.07.01:667][747]LogFbx: Dumping Node START [Object003] 
+[2017.08.30-15.07.01:667][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:667][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:667][747]LogFbx: =================================================
+[2017.08.30-15.07.01:667][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:667][747]LogFbx: 		[Node Attribute Child 1] Object003 (Type Mesh).
+[2017.08.30-15.07.01:667][747]LogFbx: Dumping Node END [Object003]
+[2017.08.30-15.07.01:667][747]LogFbx: =================================================
+[2017.08.30-15.07.01:667][747]LogFbx: Dumping Node START [Object004] 
+[2017.08.30-15.07.01:667][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:667][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:667][747]LogFbx: =================================================
+[2017.08.30-15.07.01:667][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:667][747]LogFbx: 		[Node Attribute Child 1] Object004 (Type Mesh).
+[2017.08.30-15.07.01:667][747]LogFbx: Dumping Node END [Object004]
+[2017.08.30-15.07.01:667][747]LogFbx: =================================================
+[2017.08.30-15.07.01:667][747]LogFbx: Dumping Node START [Object005] 
+[2017.08.30-15.07.01:667][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:667][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:667][747]LogFbx: =================================================
+[2017.08.30-15.07.01:667][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:667][747]LogFbx: 		[Node Attribute Child 1] Object005 (Type Mesh).
+[2017.08.30-15.07.01:667][747]LogFbx: Dumping Node END [Object005]
+[2017.08.30-15.07.01:667][747]LogFbx: =================================================
+[2017.08.30-15.07.01:667][747]LogFbx: Dumping Node START [Object007] 
+[2017.08.30-15.07.01:667][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:667][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:667][747]LogFbx: =================================================
+[2017.08.30-15.07.01:667][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:667][747]LogFbx: 		[Node Attribute Child 1] Object007 (Type Mesh).
+[2017.08.30-15.07.01:667][747]LogFbx: Dumping Node END [Object007]
+[2017.08.30-15.07.01:667][747]LogFbx: =================================================
+[2017.08.30-15.07.01:668][747]LogFbx: Dumping Node START [Object008] 
+[2017.08.30-15.07.01:668][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:668][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:668][747]LogFbx: =================================================
+[2017.08.30-15.07.01:668][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:668][747]LogFbx: 		[Node Attribute Child 1] Object008 (Type Mesh).
+[2017.08.30-15.07.01:668][747]LogFbx: Dumping Node END [Object008]
+[2017.08.30-15.07.01:668][747]LogFbx: =================================================
+[2017.08.30-15.07.01:668][747]LogFbx: Dumping Node START [Object009] 
+[2017.08.30-15.07.01:668][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:668][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:668][747]LogFbx: =================================================
+[2017.08.30-15.07.01:668][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:668][747]LogFbx: 		[Node Attribute Child 1] Object009 (Type Mesh).
+[2017.08.30-15.07.01:668][747]LogFbx: Dumping Node END [Object009]
+[2017.08.30-15.07.01:668][747]LogFbx: =================================================
+[2017.08.30-15.07.01:668][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:668][747]LogFbx: 	Total Deformer Count 971710592.
+[2017.08.30-15.07.01:668][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:668][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:668][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:668][747]LogFbx: =================================================
+[2017.08.30-15.07.01:668][747]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.07.01:668][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:668][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:668][747]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.07.01:668][747]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.07.01:668][747]LogFbx: =================================================
+[2017.08.30-15.07.01:668][747]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.07.01:668][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:668][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:668][747]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.07.01:668][747]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.07.01:668][747]LogFbx: =================================================
+[2017.08.30-15.07.01:668][747]LogFbx: Dumping Node START [Cylinder002] 
+[2017.08.30-15.07.01:668][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:668][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:668][747]LogFbx: =================================================
+[2017.08.30-15.07.01:668][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:668][747]LogFbx: 		[Node Attribute Child 1] Cylinder002 (Type Mesh).
+[2017.08.30-15.07.01:668][747]LogFbx: Dumping Node END [Cylinder002]
+[2017.08.30-15.07.01:669][747]LogFbx: =================================================
+[2017.08.30-15.07.01:669][747]LogFbx: Dumping Node START [Object002] 
+[2017.08.30-15.07.01:669][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:669][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:669][747]LogFbx: =================================================
+[2017.08.30-15.07.01:669][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:669][747]LogFbx: 		[Node Attribute Child 1] Object002 (Type Mesh).
+[2017.08.30-15.07.01:669][747]LogFbx: Dumping Node END [Object002]
+[2017.08.30-15.07.01:669][747]LogFbx: =================================================
+[2017.08.30-15.07.01:669][747]LogFbx: Dumping Node START [Object003] 
+[2017.08.30-15.07.01:669][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:669][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:669][747]LogFbx: =================================================
+[2017.08.30-15.07.01:669][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:669][747]LogFbx: 		[Node Attribute Child 1] Object003 (Type Mesh).
+[2017.08.30-15.07.01:669][747]LogFbx: Dumping Node END [Object003]
+[2017.08.30-15.07.01:669][747]LogFbx: =================================================
+[2017.08.30-15.07.01:669][747]LogFbx: Dumping Node START [Object004] 
+[2017.08.30-15.07.01:669][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:669][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:669][747]LogFbx: =================================================
+[2017.08.30-15.07.01:669][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:669][747]LogFbx: 		[Node Attribute Child 1] Object004 (Type Mesh).
+[2017.08.30-15.07.01:669][747]LogFbx: Dumping Node END [Object004]
+[2017.08.30-15.07.01:669][747]LogFbx: =================================================
+[2017.08.30-15.07.01:669][747]LogFbx: Dumping Node START [Object005] 
+[2017.08.30-15.07.01:669][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:669][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:669][747]LogFbx: =================================================
+[2017.08.30-15.07.01:669][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:669][747]LogFbx: 		[Node Attribute Child 1] Object005 (Type Mesh).
+[2017.08.30-15.07.01:669][747]LogFbx: Dumping Node END [Object005]
+[2017.08.30-15.07.01:669][747]LogFbx: =================================================
+[2017.08.30-15.07.01:669][747]LogFbx: Dumping Node START [Object007] 
+[2017.08.30-15.07.01:669][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:669][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:669][747]LogFbx: =================================================
+[2017.08.30-15.07.01:669][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:669][747]LogFbx: 		[Node Attribute Child 1] Object007 (Type Mesh).
+[2017.08.30-15.07.01:669][747]LogFbx: Dumping Node END [Object007]
+[2017.08.30-15.07.01:670][747]LogFbx: =================================================
+[2017.08.30-15.07.01:670][747]LogFbx: Dumping Node START [Object008] 
+[2017.08.30-15.07.01:670][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:670][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:670][747]LogFbx: =================================================
+[2017.08.30-15.07.01:670][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:670][747]LogFbx: 		[Node Attribute Child 1] Object008 (Type Mesh).
+[2017.08.30-15.07.01:670][747]LogFbx: Dumping Node END [Object008]
+[2017.08.30-15.07.01:670][747]LogFbx: =================================================
+[2017.08.30-15.07.01:670][747]LogFbx: Dumping Node START [Object009] 
+[2017.08.30-15.07.01:670][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:670][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:670][747]LogFbx: =================================================
+[2017.08.30-15.07.01:670][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:671][747]LogFbx: 		[Node Attribute Child 1] Object009 (Type Mesh).
+[2017.08.30-15.07.01:671][747]LogFbx: Dumping Node END [Object009]
+[2017.08.30-15.07.01:671][747]LogFbx: =================================================
+[2017.08.30-15.07.01:671][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:671][747]LogFbx: 	Total Deformer Count 971710592.
+[2017.08.30-15.07.01:671][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:671][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:671][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:671][747]LogFbx: =================================================
+[2017.08.30-15.07.01:671][747]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.07.01:671][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:671][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:671][747]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.07.01:671][747]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.07.01:672][747]LogFbx: =================================================
+[2017.08.30-15.07.01:672][747]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.07.01:672][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:672][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:672][747]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.07.01:672][747]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.07.01:672][747]LogFbx: =================================================
+[2017.08.30-15.07.01:672][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:672][747]LogFbx: 	Total Deformer Count 971710592.
+[2017.08.30-15.07.01:672][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:672][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:672][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:672][747]LogFbx: =================================================
+[2017.08.30-15.07.01:672][747]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.07.01:672][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:672][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:672][747]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.07.01:672][747]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.07.01:672][747]LogFbx: =================================================
+[2017.08.30-15.07.01:672][747]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.07.01:672][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:672][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:672][747]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.07.01:672][747]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.07.01:672][747]LogFbx: =================================================
+[2017.08.30-15.07.01:672][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:672][747]LogFbx: 	Total Deformer Count 971710592.
+[2017.08.30-15.07.01:672][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:672][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:672][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:672][747]LogFbx: =================================================
+[2017.08.30-15.07.01:672][747]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.07.01:672][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:672][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:672][747]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.07.01:672][747]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.07.01:672][747]LogFbx: =================================================
+[2017.08.30-15.07.01:672][747]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.07.01:672][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:672][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:672][747]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.07.01:672][747]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.07.01:673][747]LogFbx: =================================================
+[2017.08.30-15.07.01:673][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:673][747]LogFbx: 	Total Deformer Count 971710592.
+[2017.08.30-15.07.01:673][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:673][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:673][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:673][747]LogFbx: =================================================
+[2017.08.30-15.07.01:673][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:673][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:673][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:673][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:673][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:673][747]LogFbx: =================================================
+[2017.08.30-15.07.01:673][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:673][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:673][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:673][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:673][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:673][747]LogFbx: =================================================
+[2017.08.30-15.07.01:673][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:673][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:673][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:673][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:673][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:673][747]LogFbx: =================================================
+[2017.08.30-15.07.01:673][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:673][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:673][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:673][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:673][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:673][747]LogFbx: =================================================
+[2017.08.30-15.07.01:673][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:673][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:673][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:673][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:673][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:674][747]LogFbx: =================================================
+[2017.08.30-15.07.01:674][747]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.07.01:674][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:674][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:674][747]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.07.01:674][747]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.07.01:674][747]LogFbx: =================================================
+[2017.08.30-15.07.01:674][747]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.07.01:674][747]LogFbx: 	Total Deformer Count 971716992.
+[2017.08.30-15.07.01:674][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:674][747]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.07.01:674][747]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.07.01:674][747]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Cylinder002 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.07.01:674][747]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object002 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.07.01:674][747]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object003 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.07.01:674][747]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object004 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.07.01:674][747]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object005 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.07.01:675][747]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object007 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.07.01:675][747]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object008 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.07.01:675][747]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object009 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.07.01:675][747]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Cylinder007 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.07.01:675][747]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object006 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.07.01:675][747]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Object001 : Not all the deformers are stored in this BindPose
+[2017.08.30-15.07.01:675][747]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.08.30-15.07.01:676][747]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cylinder002
+[2017.08.30-15.07.01:676][747]LogFbx: Warning: Recreating bind pose succeeded.
+[2017.08.30-15.07.01:676][747]LogFbx: Triangulating skeletal mesh Cylinder002
+[2017.08.30-15.07.01:685][747]LogFbx: Triangulating skeletal mesh Object005
+[2017.08.30-15.07.01:693][747]LogFbx: Triangulating skeletal mesh Object009
+[2017.08.30-15.07.01:698][747]LogFbx: Triangulating skeletal mesh Cylinder007
+[2017.08.30-15.07.01:722][747]LogFbx: Triangulating skeletal mesh Object006
+[2017.08.30-15.07.01:725][747]LogFbx: Triangulating skeletal mesh Object001
+[2017.08.30-15.07.01:733][747]LogFbx: Warning: Bones digested - 35  Depth of hierarchy - 10
+[2017.08.30-15.07.01:750][747]LogSkeletalMesh: Section 0: 1018 vertices, 16 active bones
+[2017.08.30-15.07.01:750][747]LogSkeletalMesh: Section 1: 15 vertices, 2 active bones
+[2017.08.30-15.07.01:751][747]LogSkeletalMesh: Section 0: Material=0, 952 triangles
+[2017.08.30-15.07.01:751][747]LogSkeletalMesh: Section 1: Material=1, 18 triangles
+[2017.08.30-15.07.01:752][747]LogLinker: '/Game/ThirdPersonBP/Player/PlayerJump_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.08.30-15.07.01:752][747]LogLinker: '/Game/ThirdPersonBP/Player/PlayerJump_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.08.30-15.07.01:761][747]LogFbx: =================================================
+[2017.08.30-15.07.01:761][747]LogFbx: Dumping Node START [Cylinder002] 
+[2017.08.30-15.07.01:761][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:761][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:761][747]LogFbx: =================================================
+[2017.08.30-15.07.01:761][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:761][747]LogFbx: 		[Node Attribute Child 1] Cylinder002 (Type Mesh).
+[2017.08.30-15.07.01:761][747]LogFbx: Dumping Node END [Cylinder002]
+[2017.08.30-15.07.01:761][747]LogFbx: =================================================
+[2017.08.30-15.07.01:761][747]LogFbx: Dumping Node START [Object002] 
+[2017.08.30-15.07.01:762][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:762][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:762][747]LogFbx: =================================================
+[2017.08.30-15.07.01:762][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:762][747]LogFbx: 		[Node Attribute Child 1] Object002 (Type Mesh).
+[2017.08.30-15.07.01:762][747]LogFbx: Dumping Node END [Object002]
+[2017.08.30-15.07.01:762][747]LogFbx: =================================================
+[2017.08.30-15.07.01:762][747]LogFbx: Dumping Node START [Object003] 
+[2017.08.30-15.07.01:762][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:762][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:762][747]LogFbx: =================================================
+[2017.08.30-15.07.01:762][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:762][747]LogFbx: 		[Node Attribute Child 1] Object003 (Type Mesh).
+[2017.08.30-15.07.01:762][747]LogFbx: Dumping Node END [Object003]
+[2017.08.30-15.07.01:762][747]LogFbx: =================================================
+[2017.08.30-15.07.01:762][747]LogFbx: Dumping Node START [Object004] 
+[2017.08.30-15.07.01:762][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:762][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:762][747]LogFbx: =================================================
+[2017.08.30-15.07.01:762][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:762][747]LogFbx: 		[Node Attribute Child 1] Object004 (Type Mesh).
+[2017.08.30-15.07.01:762][747]LogFbx: Dumping Node END [Object004]
+[2017.08.30-15.07.01:762][747]LogFbx: =================================================
+[2017.08.30-15.07.01:762][747]LogFbx: Dumping Node START [Object005] 
+[2017.08.30-15.07.01:762][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:762][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:762][747]LogFbx: =================================================
+[2017.08.30-15.07.01:762][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:762][747]LogFbx: 		[Node Attribute Child 1] Object005 (Type Mesh).
+[2017.08.30-15.07.01:762][747]LogFbx: Dumping Node END [Object005]
+[2017.08.30-15.07.01:762][747]LogFbx: =================================================
+[2017.08.30-15.07.01:762][747]LogFbx: Dumping Node START [Object007] 
+[2017.08.30-15.07.01:762][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:762][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:762][747]LogFbx: =================================================
+[2017.08.30-15.07.01:762][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:762][747]LogFbx: 		[Node Attribute Child 1] Object007 (Type Mesh).
+[2017.08.30-15.07.01:762][747]LogFbx: Dumping Node END [Object007]
+[2017.08.30-15.07.01:762][747]LogFbx: =================================================
+[2017.08.30-15.07.01:762][747]LogFbx: Dumping Node START [Object008] 
+[2017.08.30-15.07.01:762][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:762][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:762][747]LogFbx: =================================================
+[2017.08.30-15.07.01:762][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:762][747]LogFbx: 		[Node Attribute Child 1] Object008 (Type Mesh).
+[2017.08.30-15.07.01:762][747]LogFbx: Dumping Node END [Object008]
+[2017.08.30-15.07.01:762][747]LogFbx: =================================================
+[2017.08.30-15.07.01:762][747]LogFbx: Dumping Node START [Object009] 
+[2017.08.30-15.07.01:762][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:762][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:762][747]LogFbx: =================================================
+[2017.08.30-15.07.01:762][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:762][747]LogFbx: 		[Node Attribute Child 1] Object009 (Type Mesh).
+[2017.08.30-15.07.01:762][747]LogFbx: Dumping Node END [Object009]
+[2017.08.30-15.07.01:763][747]LogFbx: =================================================
+[2017.08.30-15.07.01:763][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:763][747]LogFbx: 	Total Deformer Count 971715584.
+[2017.08.30-15.07.01:763][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:763][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:763][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:763][747]LogFbx: =================================================
+[2017.08.30-15.07.01:763][747]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.07.01:763][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:763][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:763][747]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.07.01:763][747]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.07.01:763][747]LogFbx: =================================================
+[2017.08.30-15.07.01:763][747]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.07.01:763][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:763][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:763][747]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.07.01:763][747]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.07.01:763][747]LogFbx: =================================================
+[2017.08.30-15.07.01:763][747]LogFbx: Dumping Node START [Cylinder002] 
+[2017.08.30-15.07.01:763][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:763][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:763][747]LogFbx: =================================================
+[2017.08.30-15.07.01:763][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:763][747]LogFbx: 		[Node Attribute Child 1] Cylinder002 (Type Mesh).
+[2017.08.30-15.07.01:763][747]LogFbx: Dumping Node END [Cylinder002]
+[2017.08.30-15.07.01:763][747]LogFbx: =================================================
+[2017.08.30-15.07.01:763][747]LogFbx: Dumping Node START [Object002] 
+[2017.08.30-15.07.01:763][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:763][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:763][747]LogFbx: =================================================
+[2017.08.30-15.07.01:763][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:763][747]LogFbx: 		[Node Attribute Child 1] Object002 (Type Mesh).
+[2017.08.30-15.07.01:763][747]LogFbx: Dumping Node END [Object002]
+[2017.08.30-15.07.01:763][747]LogFbx: =================================================
+[2017.08.30-15.07.01:763][747]LogFbx: Dumping Node START [Object003] 
+[2017.08.30-15.07.01:763][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:763][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:763][747]LogFbx: =================================================
+[2017.08.30-15.07.01:763][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:763][747]LogFbx: 		[Node Attribute Child 1] Object003 (Type Mesh).
+[2017.08.30-15.07.01:763][747]LogFbx: Dumping Node END [Object003]
+[2017.08.30-15.07.01:763][747]LogFbx: =================================================
+[2017.08.30-15.07.01:763][747]LogFbx: Dumping Node START [Object004] 
+[2017.08.30-15.07.01:763][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:763][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:763][747]LogFbx: =================================================
+[2017.08.30-15.07.01:763][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:763][747]LogFbx: 		[Node Attribute Child 1] Object004 (Type Mesh).
+[2017.08.30-15.07.01:763][747]LogFbx: Dumping Node END [Object004]
+[2017.08.30-15.07.01:764][747]LogFbx: =================================================
+[2017.08.30-15.07.01:764][747]LogFbx: Dumping Node START [Object005] 
+[2017.08.30-15.07.01:764][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:764][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:764][747]LogFbx: =================================================
+[2017.08.30-15.07.01:764][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:764][747]LogFbx: 		[Node Attribute Child 1] Object005 (Type Mesh).
+[2017.08.30-15.07.01:764][747]LogFbx: Dumping Node END [Object005]
+[2017.08.30-15.07.01:764][747]LogFbx: =================================================
+[2017.08.30-15.07.01:764][747]LogFbx: Dumping Node START [Object007] 
+[2017.08.30-15.07.01:764][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:764][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:764][747]LogFbx: =================================================
+[2017.08.30-15.07.01:764][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:764][747]LogFbx: 		[Node Attribute Child 1] Object007 (Type Mesh).
+[2017.08.30-15.07.01:764][747]LogFbx: Dumping Node END [Object007]
+[2017.08.30-15.07.01:764][747]LogFbx: =================================================
+[2017.08.30-15.07.01:764][747]LogFbx: Dumping Node START [Object008] 
+[2017.08.30-15.07.01:764][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:764][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:764][747]LogFbx: =================================================
+[2017.08.30-15.07.01:764][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:764][747]LogFbx: 		[Node Attribute Child 1] Object008 (Type Mesh).
+[2017.08.30-15.07.01:764][747]LogFbx: Dumping Node END [Object008]
+[2017.08.30-15.07.01:764][747]LogFbx: =================================================
+[2017.08.30-15.07.01:764][747]LogFbx: Dumping Node START [Object009] 
+[2017.08.30-15.07.01:764][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:764][747]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.30-15.07.01:764][747]LogFbx: =================================================
+[2017.08.30-15.07.01:764][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:764][747]LogFbx: 		[Node Attribute Child 1] Object009 (Type Mesh).
+[2017.08.30-15.07.01:764][747]LogFbx: Dumping Node END [Object009]
+[2017.08.30-15.07.01:764][747]LogFbx: =================================================
+[2017.08.30-15.07.01:764][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:764][747]LogFbx: 	Total Deformer Count 971715584.
+[2017.08.30-15.07.01:764][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:764][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:764][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:764][747]LogFbx: =================================================
+[2017.08.30-15.07.01:764][747]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.07.01:764][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:764][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:764][747]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.07.01:764][747]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.07.01:764][747]LogFbx: =================================================
+[2017.08.30-15.07.01:764][747]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.07.01:764][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:764][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:764][747]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.07.01:764][747]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.07.01:765][747]LogFbx: =================================================
+[2017.08.30-15.07.01:765][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:765][747]LogFbx: 	Total Deformer Count 971715584.
+[2017.08.30-15.07.01:765][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:765][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:765][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:765][747]LogFbx: =================================================
+[2017.08.30-15.07.01:765][747]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.07.01:765][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:765][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:765][747]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.07.01:765][747]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.07.01:765][747]LogFbx: =================================================
+[2017.08.30-15.07.01:765][747]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.07.01:765][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:765][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:765][747]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.07.01:765][747]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.07.01:765][747]LogFbx: =================================================
+[2017.08.30-15.07.01:765][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:765][747]LogFbx: 	Total Deformer Count 971715584.
+[2017.08.30-15.07.01:765][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:765][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:765][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:765][747]LogFbx: =================================================
+[2017.08.30-15.07.01:765][747]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.07.01:765][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:765][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:765][747]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.07.01:765][747]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.07.01:766][747]LogFbx: =================================================
+[2017.08.30-15.07.01:766][747]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.07.01:766][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:766][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:766][747]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.07.01:766][747]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.07.01:766][747]LogFbx: =================================================
+[2017.08.30-15.07.01:766][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:766][747]LogFbx: 	Total Deformer Count 971715584.
+[2017.08.30-15.07.01:766][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:766][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:766][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:766][747]LogFbx: =================================================
+[2017.08.30-15.07.01:766][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:766][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:766][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:766][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:766][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:766][747]LogFbx: =================================================
+[2017.08.30-15.07.01:766][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:766][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:767][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:767][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:767][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:767][747]LogFbx: =================================================
+[2017.08.30-15.07.01:767][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:767][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:767][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:767][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:767][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:767][747]LogFbx: =================================================
+[2017.08.30-15.07.01:767][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:767][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:767][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:767][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:767][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:767][747]LogFbx: =================================================
+[2017.08.30-15.07.01:767][747]LogFbx: Dumping Node START [Cylinder007] 
+[2017.08.30-15.07.01:767][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:767][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:767][747]LogFbx: 		[Node Attribute Child 1] Cylinder007 (Type Mesh).
+[2017.08.30-15.07.01:767][747]LogFbx: Dumping Node END [Cylinder007]
+[2017.08.30-15.07.01:767][747]LogFbx: =================================================
+[2017.08.30-15.07.01:767][747]LogFbx: Dumping Node START [Object006] 
+[2017.08.30-15.07.01:767][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:767][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:768][747]LogFbx: 		[Node Attribute Child 1] Object006 (Type Mesh).
+[2017.08.30-15.07.01:768][747]LogFbx: Dumping Node END [Object006]
+[2017.08.30-15.07.01:768][747]LogFbx: =================================================
+[2017.08.30-15.07.01:768][747]LogFbx: Dumping Node START [Object001] 
+[2017.08.30-15.07.01:768][747]LogFbx: 	Total Deformer Count 971715968.
+[2017.08.30-15.07.01:768][747]LogFbx: 	Attribute () Type (4).
+[2017.08.30-15.07.01:768][747]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2017.08.30-15.07.01:768][747]LogFbx: Dumping Node END [Object001]
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(0) Bip001
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(2) Bip001 Spine
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(3) Bip001 L Thigh
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(4) Bip001 L Calf
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(5) Bip001 L Foot
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(6) Bip001 L Toe0
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(7) Bip001 L Toe01
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(8) Bip001 L Toe02
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(9) Bip001 L Toe0Nub
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(10) Bip001 R Thigh
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(11) Bip001 R Calf
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(12) Bip001 R Foot
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(13) Bip001 R Toe0
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(14) Bip001 R Toe01
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(15) Bip001 R Toe02
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(16) Bip001 R Toe0Nub
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(17) Bip001 Neck
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(18) Bip001 L Clavicle
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(19) Bip001 L UpperArm
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(20) Bip001 L Forearm
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(21) Bip001 L Hand
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(22) Bip001 L Finger0
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(23) Bip001 L Finger0Nub
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(24) Cylinder007
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(25) Bip001 R Clavicle
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(26) Bip001 R UpperArm
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(27) Bip001 R Forearm
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(28) Bip001 R Hand
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(29) Bip001 R Finger0
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(30) Bip001 R Finger0Nub
+[2017.08.30-15.07.01:768][747]LogFbx: SortedLinks :(31) Bip001 Head
+[2017.08.30-15.07.01:769][747]LogFbx: SortedLinks :(32) Bip001 HeadNub
+[2017.08.30-15.07.01:769][747]LogFbx: SortedLinks :(33) Object006
+[2017.08.30-15.07.01:769][747]LogFbx: SortedLinks :(34) Object001
+[2017.08.30-15.07.01:770][747]LogFbx: Parsing AnimStack Take 001
+[2017.08.30-15.07.01:772][747]LogLinker: '/Game/ThirdPersonBP/Player/PlayerJump_Anim' 파일을 찾을 수 없습니다.
+[2017.08.30-15.07.01:772][747]LogLinker: '/Game/ThirdPersonBP/Player/PlayerJump_Anim' 파일을 찾을 수 없습니다.
+[2017.08.30-15.07.01:912][747]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Player/PlayerJump_Anim.PlayerJump_Anim
+[2017.08.30-15.07.01:925][747]FBXImport: Warning: 바인드 포즈에서 빠진 본은 다음과 같습니다:
+Bip001 L Foot  
+Bip001 L Toe0  
+Bip001 L Toe01  
+Bip001 L Toe02  
+Bip001 L Toe0Nub  
+Bip001 R Foot  
+Bip001 R Toe0  
+Bip001 R Toe01  
+Bip001 R Toe02  
+Bip001 R Toe0Nub  
+Bip001 L Finger0  
+Bip001 L Finger0Nub  
+Cylinder007  
+Bip001 R Finger0  
+Bip001 R Finger0Nub  
+Bip001 HeadNub  
+Object006  
+Object001  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2017.08.30-15.07.27:493][828]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.08.30-15.07.27:886][828]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.08.30-15.07.29:506][828]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.30-15.07.47:669][601]LogMetaData: Removing '/Game/ThirdPersonBP/Player/Player_AnimBP.SKEL_Player_AnimBP_C' ref from Metadata '/Game/ThirdPersonBP/Player/ThirdPerson_AnimBP.PackageMetaData'
+[2017.08.30-15.07.47:669][601]LogMetaData: Removing '/Game/ThirdPersonBP/Player/Player_AnimBP.Player_AnimBP_C' ref from Metadata '/Game/ThirdPersonBP/Player/ThirdPerson_AnimBP.PackageMetaData'
+[2017.08.30-15.07.47:793][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Player/Player_AnimBP" FILE="../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Content/ThirdPersonBP/Player/Player_AnimBP.uasset" SILENT=true
+[2017.08.30-15.07.48:013][601]LogSavePackage: Save=167.64ms
+[2017.08.30-15.07.48:013][601]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Saved/Player_AnimBPDDB706E3451936AA4A1DBBA987652965.tmp' to '../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Content/ThirdPersonBP/Player/Player_AnimBP.uasset'
+[2017.08.30-15.07.48:015][601]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Content/ThirdPersonBP/Player/Player_AnimBP.uasset
+[2017.08.30-15.07.49:264][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.08.30-15.07.49:588][635]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.08.30-15.07.52:665][635]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.30-15.08.06:333][182]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2017.08.30-15.08.07:330][182]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2017.08.30-15.08.29:611][668]LogMetaData: Removing '/Game/ThirdPersonBP/Player/Player_AnimBP.Player_AnimBP:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/ThirdPersonBP/Player/NewAnimBlueprint.PackageMetaData'
+[2017.08.30-15.08.29:612][668]LogMetaData: Removing '/Game/ThirdPersonBP/Player/Player_AnimBP.SKEL_Player_AnimBP_C' ref from Metadata '/Game/ThirdPersonBP/Player/NewAnimBlueprint.PackageMetaData'
+[2017.08.30-15.08.29:612][668]LogMetaData: Removing '/Game/ThirdPersonBP/Player/Player_AnimBP.Player_AnimBP_C' ref from Metadata '/Game/ThirdPersonBP/Player/NewAnimBlueprint.PackageMetaData'
+[2017.08.30-15.08.29:612][668]LogMetaData: Removing '/Game/ThirdPersonBP/Player/Player_AnimBP.Player_AnimBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Player/NewAnimBlueprint.PackageMetaData'
+[2017.08.30-15.08.29:612][668]LogMetaData: Removing '/Game/ThirdPersonBP/Player/Player_AnimBP.Player_AnimBP:EventGraph.K2Node_CallFunction_0' ref from Metadata '/Game/ThirdPersonBP/Player/NewAnimBlueprint.PackageMetaData'
+[2017.08.30-15.08.29:678][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Player/Player_AnimBP" FILE="../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Content/ThirdPersonBP/Player/Player_AnimBP.uasset" SILENT=true
+[2017.08.30-15.08.29:705][668]LogSavePackage: Save=24.41ms
+[2017.08.30-15.08.29:705][668]LogSavePackage: Moving '../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Saved/Player_AnimBP7B3601134C65B0D542F2F186AD5D7EE5.tmp' to '../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Content/ThirdPersonBP/Player/Player_AnimBP.uasset'
+[2017.08.30-15.08.29:708][668]LogSavePackage: Display: Finished SavePackage ../../../../../NewGarden/GardenProject/DaeguCasualGame/Running/Content/ThirdPersonBP/Player/Player_AnimBP.uasset
+[2017.08.30-15.08.31:234][714]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.08.30-15.08.31:522][714]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.08.30-15.08.32:368][714]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.30-15.09.25:423][990]LogEditorTransaction: Undo 노드 이름변경
+[2017.08.30-15.09.26:957][990]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.08.30-15.09.26:964][990]LogEditorTransaction: Undo 노드 추가
+[2017.08.30-15.09.28:109][990]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.08.30-15.10.01:230][372]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.08.30-15.10.01:271][372]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.08.30-15.10.04:853][372]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.30-15.10.32:763][562]BlueprintLog: New page: Player_AnimBP 컴파일
+[2017.08.30-15.10.32:777][562]LogBlueprint: Warning: [Compiler Player_AnimBP] Run -> Jump  will never be taken, please connect something to  Can Enter Transition
+[2017.08.30-15.10.33:532][562]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.627 s
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: === Handled ensure: ===
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: 
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 365]
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UEdGraphPin::링크끊기-> Pin 'Out' on node 'Unknown' 핀과 상호적으로 연결되어 있지 않습니다. 'In' on node 'None'
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: Stack: 
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000061B53606
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000618DC2D2
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000618F4746
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000005E9B1863
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000005E9B1689
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000005E9BD500
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000005E9B04D2
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000006C8328EF
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000006C7B3A99
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000006C7B2135
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x000000005B187FDB
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000005CD406FE
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x000000005B1876D2
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-AnimationBlueprintEditor.dll!0x0000000045B7B9F8
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x000000005B1D8E51
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x000000005B1DDBB6
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006BFA53FF
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006C0A9652
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006C0067B2
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006C007B69
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006C0866F5
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006C13B967
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006C1674D4
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006BF842BC
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006BF57145
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006BFF1452
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006BFD9C92
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006BFCB68F
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000061B2B3C9
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000061B13B51
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000061B2D22B
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000061B0ECB2
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: USER32.dll!0x00000000A5821169
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: USER32.dll!0x00000000A5820C97
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000061B2D936
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor.exe!0x000000002BF34BE2
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor.exe!0x000000002BF43970
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor.exe!0x000000002BF439EA
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor.exe!0x000000002BF502D9
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: UE4Editor.exe!0x000000002BF51C47
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: KERNEL32.DLL!0x00000000A5BD8102
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: ntdll.dll!0x00000000A722C2E4
+[2017.08.30-15.10.33:532][562]LogOutputDevice: Error: 
+[2017.08.30-15.10.33:536][562]LogStats:                SubmitErrorReport -  0.000 s
